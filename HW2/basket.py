@@ -71,7 +71,7 @@ def basket_price_mc(
         '''
         PUT the simulation of the geometric brownian motion below
         ''' 
-        prices = forward[:,None]*np.sqrt((-1/2)*texp*vol[:,None]**2+(np.sqrt(texp)*chol_m @ znorm_m))
+        prices = forward[:,None]*np.exp((-1/2)*texp*vol[:,None]**2+(np.sqrt(texp)*chol_m @ znorm_m))
         
         pass
     else:
