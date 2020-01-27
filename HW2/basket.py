@@ -2,7 +2,6 @@
 """
 Created on Tue Sep 19 22:56:58 2017
 
-@author: jaehyuk
 """
 import numpy as np
 import scipy.stats as ss
